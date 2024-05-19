@@ -1,0 +1,142 @@
+Halo 2 is infamously an imbalanced experience, especially on Legendary. This mod makes adjustments to the AI and Global Difficulty modifiers to create a more fair but still high challenging experience.
+
+Balance Changes
+- Player Health increased from 30 to 45.
+* Side Effect of Jackal Snipers needing 2 shots to kill the player on Legendary.
+* Player Health was extremely low, all subsequent games increased it to 45. MP also has the Players health set to 45 so it further justifies this change
+
+- AI damage is scaled by x0.6 with exceptions in regards to allied vehicle turrets such as Marines in Warthog turret or Elites in Specter turret. This does not affect explosions and melee. Player health is also scaled by x0.6 (Explosion and melee damage against player is scaled). The result is that AI deals less damage against other AI.
+* This is what CE does and a workaround to the H3 solution. This will have side effects including Player damage being more effective against self or the co op partner, makes vehicles more resistant to AI damage and Players are more vulnerable to collisions.
+
+- Projectile Tracking Difficulty Modifiers adjusted for all difficulties. Easy to Legendary; from 0.5, 1, 1.5 and 2.0 to 0.25, 0.5, 0.75 and 1.0.
+* Was difficult and annoying dodging Needler rounds at higher difficulties, this is more inline with HCE and H3
+
+- Removed Burst Separation Difficulty Modifier.
+* The Burst Separation defined by the Character tags are short enough and the modifier made things worse
+
+- Increased Enemy Shield Recharge Rate Difficulty Modifier on Heroic from 0.6 to 0.7.
+
+- Increased First Burst Delay Time Legendary Difficulty Modifier from 0.2 to 0.3.
+
+- Changed Standard First Burst Delay Time from 0-0.5 to 0.2-1 seconds.
+* At least enemies require time to react, compound this with the First Burst Delay modifier
+
+- Grunts and Jackals will now require time to react before firing when wielding Plasma Pistols.
+* An oversight that causes these enemies to always react instantly
+
+- Characters with Beam Rifles First Burst Delay Time increased from 0.25-1 to 0.5-2.
+* Give Players time to engage the Snipers before being one hit KO
+
+- Adjusted Accuracy Bounds for Heroic and Legendary.
+
+- Reduced AI initial Rate of Fire for most standard weapons.
+
+- Increased AI final burst geometry size for most standard weapons.
+
+- Needler dropped by characters on death now have random amount of ammo.
+
+- Characters with Plasma Rifles will no longer deal extra melee damage.
+* An oversight fix so Elites will no longer one hit melee the Player and other characters, no longer deal friendly fire damage
+
+- Elite melee now uses a damage type
+* An oversight where Elite melee had no damage type. Given melee damage type
+
+- Elite Ultra Shields/Health reduced for Normal and Legendary from 200/90 and 300/120 to 140/60 and 195/75.
+* Stats were excessive for a standard Elite rank that has a chance of being upgraded to. Instead stats were used for Zealots which are much rarer and more deserving. The new stats follow the same pattern as Minor to Major.
+
+- Elite Zealot Shields/Health increased for Normal and Legendary from 105/45 and 150/60 to 200/80 and 300/120.
+* Extremely weak for it's class, reuse Elite Ultra stats instead to increase it's threat
+
+- Drones Health reduced for Normal and Legendary from 30 and 45 to 20 and 30.
+
+- Reduced Grunt Ultras aggression with firing parameters.
+
+- Reduced possibility of Brute Majors to be upgraded to Captain rank. For reference it is now the same chance as Elite Majors to Ultras.
+* Original settings made Brute Majors extremely rare on higher difficulties, Captains should be a specialised rank like in the later entries. They still have the chance to rank up to a Captain but is significantly more rare. This will also help mitigate fighting a group of spongy enemies
+
+- Reduced all Brutes health for both Normal and Legendary.
+- Minor: From 175 and 250 to 90 and 135.
+- Major: From 150 and 200 to 135 and 190.
+- Captain and Honor Guard: From 200 and 250 to 180 and 245.
+- Increased Helmet health by 50%
+* Health stats were inconsistent between ranks, with the lower ranks being very spongy. Helmet stat was increased to compensate for this change, therefore headshot weapons have the same effectiveness
+
+- Heretic Elites melee will be more reliable.
+
+- Flood Combat Form health reduced for Normal and Legendary from 100 and 200 to 80 and 160.
+
+- Flood Combat Form and Brutes with Shotguns will deal reduced damage.
+
+- Flood Combat Form with human weapons will do reduced damage.
+* More inline with HCE and H3
+
+- Flood Combat Form melee with Energy Swords will be more reliable.
+
+- Adjusted Firing Parameters of Flood Combat Form, will generally with lower ROF.
+*  More inline with HCE and H3
+
+Level Changes
+- On Cairo Station Legendary, Elite Majors will support the Elite Zealot instead of Elite Ultras and will no longer dual wield.
+* Zealot (which was buffed) plus two Ultras... dual wielding... on the first mission, way too much. Encounter is much more reasonable now.
+
+- Grunts wielding Needlers will be more prominent in Outskirts and Metropolis.
+
+- Fixed a Spec Ops Grunt from the first reinforcements on Oracle with incorrect armor permutation.
+
+- On Delta Halo, from the second phantom reinforcement, the Elite with Energy Sword will now be an Ultra.
+
+- Jackals at the Old Temple will now wield Plasma Pistols instead of Plasma Rifles on Delta Halo.
+
+- Fuel Rod Gun makes an appearance on Quarantine Zone, replacing some Rocket Launcher encounters.
+* Replace some of the surprise encounters with Fuel Rod Guns which should be more fair
+
+- On Quarantine Zone, fixed optional reinforcements dropping standard elites (Minor, Major or Ultra) instead of Spec Ops.
+
+- Fixed Allies going brain dead outside the Sentinel Factory and the entrance to the Gondola on Quarantine Zone. They will exit the player's vehicle to proceed into next section when the player exits the driver seat.
+
+- Removed Sentinel wielding Needler in Quarantine Zone Sentinel Factory encounter.
+
+- Dogmatic Elite Permutation restored on Gravemind, this fixes the Elite Zealot at the final encounter in the Mausoleum.
+
+- Dead Elites on Uprising are now Councilor Elites.
+* These Elites were always referred to as the Councilors, so they might as well look the part.
+
+- Player starting loadout on High Charity now carries over weapons from Gravemind.
+
+- Fixed dead Brutes permutation on High Charity.
+
+- Dead Elites with Swords have been replaced with Honor Guard Elites instead of Elite Minors.
+
+- All Brute Pilots on The Great Journey will wield Brute Plasma Rifles instead of Plasma Rifles or nothing.
+
+- On The Great Journey, Hunters and Elites will properly follow the player throughout and after the bridge encounter.
+
+- Lowered Kill Barrier on The Great Journey boss room to prevent crouching on the bottom floor killing the Player and Elite allies
+
+Global Bug Fixes
+- Redrawn Reticles to better match the original Xbox
+
+- Fix Elite Armor colors
+* Parts of the Armor were incorrectly color mapped
+
+- Heretic Grunts will have radio filter during dialogue
+
+- Honor Guard Elites with no helmets will now have the correct armor color.
+
+- Ranger Elite armor lights properly illuminated based on Shields
+
+- Elites now have unique shield recharge effect
+* Changed how tints were applied, Elite effect tinting was applied on top of the Masterchief effect tint
+
+- Arbiter, Ranger and Heretic Elites as well as Elite Combat Forms now have proper shield recharge effects
+
+- Heretic Elites and Elite Combat Forms have effects when shields are depleted
+
+- Painted Elite Combat Form mandible guards
+
+- Fixed error of Banshees using the 'Damaged' variant having Heretic textures. These were used on 'The Great Journey'.
+
+- Workaround Plasma weapons dealing extra damage when impacting the weapons of the Players' or Elites' they are wielding when shieldless.
+
+- Pelican now has steering animations
+* https://twitter.com/Vuthakral/status/1736494073127575553
